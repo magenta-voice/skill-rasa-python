@@ -1,0 +1,81 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hallo
+    - hello
+    - hi
+    - hola
+    - guten morgen
+    - guten abend
+    - moin
+    - guten tag
+    - servus
+    - servas
+
+- intent: goodbye
+  examples: |
+    - bis dann
+    - lejters
+    - tschüss
+    - bye
+    - bai
+    - nein
+    - danke
+    - tchao
+    - ciao
+    - auf wiedersehen
+
+- intent: affirm
+  examples: |
+    - ja
+    - jep
+    - jo
+    - sicher
+    - absolut
+    - ein bisschen
+    - ein wenig
+
+- intent: deny
+  examples: |
+    - nein
+    - nicht
+    - noe
+    - no way
+    - nicht wirklich
+
+- intent: mood_great
+  examples: |
+    - gut
+    - perfekt
+    - toll
+    - tolle
+    - erstaunlich
+    - wunderbar
+    - ich fühle mich sehr gut
+    - bin gut
+    - bin fine
+    - super begeistert
+    - extrem gut
+    - so perfekt
+
+- intent: mood_unhappy
+  examples: |
+    - schrecklich
+    - traurig
+    - nicht sehr gut
+    - enttäuscht
+    - super traurig
+    - sehr traurig
+    - unzufrieden
+    - nicht gut
+    - nicht sehr gut
+    - extrem traurig
+
+- intent: bot_challenge
+  examples: |
+    - bist du ein bot
+    - bist du ein mensch
+    - spreche ich mit einem bot
+    - spreche ich mit einem menschen

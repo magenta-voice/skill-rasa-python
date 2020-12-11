@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Rasa server first, then the skill
+rasa run | python manage.py run

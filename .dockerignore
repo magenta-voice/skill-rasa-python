@@ -1,0 +1,8 @@
+.git
+.gitignore
+.gitlab-ci.yml
+.gitmodules
+.idea
+.venv
+tests/
+models/
